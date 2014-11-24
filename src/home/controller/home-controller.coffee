@@ -1,6 +1,8 @@
-angular.module 'app.home'
-
-.controller 'HomeController', (
+HomeController = (
   $scope
 ) ->
   console.log 'we hood now'
+
+angular
+  .module 'app'
+  .controller 'HomeController', HomeController
