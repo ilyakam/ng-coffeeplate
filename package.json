@@ -1,6 +1,9 @@
 {
   "author": "Kevin Crawford",
   "name": "ng-coffeeplate",
+  "contributors": [{
+    "name": "Ilya Kaminsky"
+  }],
   "version": "0.0.0",
   "homepage": "https://github.com/kvcrawford/ng-coffeeplate",
   "dependencies": {},
