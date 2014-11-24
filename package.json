@@ -5,7 +5,6 @@
     "name": "Ilya Kaminsky"
   }],
   "version": "0.0.0",
-  "dependencies": {},
   "homepage": "https://github.com/ilyakam/ng-coffeeplate",
   "scripts": {
     "start": "gulp",
