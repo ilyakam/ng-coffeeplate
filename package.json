@@ -1,9 +1,22 @@
 {
   "author": "Kevin Crawford",
   "name": "ng-coffeeplate",
+  "contributors": [{
+    "name": "Ilya Kaminsky"
+  }],
   "version": "0.0.0",
-  "homepage": "https://github.com/kvcrawford/ng-coffeeplate",
-  "dependencies": {},
+  "homepage": "https://github.com/ilyakam/ng-coffeeplate",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ilyakam/ng-coffeeplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilyakam/ng-coffeeplate/issues"
+  },
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "gulp": "^3.8.7",
