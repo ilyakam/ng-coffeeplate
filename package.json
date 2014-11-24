@@ -7,6 +7,10 @@
   "version": "0.0.0",
   "dependencies": {},
   "homepage": "https://github.com/ilyakam/ng-coffeeplate",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp karma"
+  },
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "gulp": "^3.8.7",
