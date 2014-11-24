@@ -1,7 +1,7 @@
 concat = require 'gulp-concat'
 
 vendor_scripts = [
-  'vendor/lodash/dist/lodash.min.js'
+  'vendor/lodash/dist/lodash.js'
   'vendor/angular/angular.js'
   'vendor/angular-ui-router/release/angular-ui-router.js'
 ]
