@@ -1,2 +1,8 @@
-h1 Home
-p Some stuff
+h1 Select an album
+ul
+  li(
+    ng-repeat = "album in albums"
+  )
+    | {{album.getArtist()}}
+    | &mdash;
+    | {{album.name}}

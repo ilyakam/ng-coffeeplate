@@ -1,7 +1,8 @@
 HomeController = (
   $scope
+  albums
 ) ->
-  console.log 'we hood now'
+  $scope.albums = albums
 
 angular
   .module 'app'
