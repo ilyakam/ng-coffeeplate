@@ -6,6 +6,10 @@ AlbumModel = (
     endpoint: 'albums'
     name: 'album'
 
+    methods:
+      getArtist: ->
+        return _.first(@artists).name
+
 angular
   .module 'app'
   .factory 'Album', AlbumModel
