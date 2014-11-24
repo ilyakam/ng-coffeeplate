@@ -15,6 +15,9 @@
     "type": "git",
     "url": "git@github.com:ilyakam/ng-coffeeplate.git"
   },
+  "bugs": {
+    "url": "https://github.com/ilyakam/ng-coffeeplate/issues"
+  },
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "gulp": "^3.8.7",
