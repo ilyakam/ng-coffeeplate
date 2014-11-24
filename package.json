@@ -5,8 +5,8 @@
     "name": "Ilya Kaminsky"
   }],
   "version": "0.0.0",
-  "homepage": "https://github.com/kvcrawford/ng-coffeeplate",
   "dependencies": {},
+  "homepage": "https://github.com/ilyakam/ng-coffeeplate",
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "gulp": "^3.8.7",
