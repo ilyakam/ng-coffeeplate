@@ -1,12 +1,19 @@
 doctype html
 html(
-  lang="en"
-  ng-app="app"
+  lang = "en"
+  ng-app = "app"
 )
   head
     meta(charset="utf8")
+    meta(
+      content = "initial-scale=1, maximum-scale=1, user-scalable=no"
+      name = "viewport"
+    )
+    link(
+      href = "/css/vendor.css"
+      rel = "stylesheet"
+    )
     title App
-    meta(name="description", content="")
 
   body
     div(ui-view="main")
