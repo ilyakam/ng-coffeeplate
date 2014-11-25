@@ -18,9 +18,10 @@ module.exports = (gulp) ->
       'coffee:dev'
     ]
 
-    # Vendor scripts
+    # Vendor scripts and stylesheets
     gulp.watch 'lib/gulp/vendor.coffee', [
-      'vendor'
+      'vendor:scripts'
+      'vendor:stylesheets'
     ]
 
     # Templates

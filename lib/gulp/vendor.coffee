@@ -7,8 +7,15 @@ vendor_scripts = [
   'vendor/angular-ui-router/release/angular-ui-router.js'
 ]
 
+vendor_stylesheets = []
+
 module.exports = (gulp) ->
-  gulp.task 'vendor', ->
+  gulp.task 'vendor:scripts', ->
     return gulp.src vendor_scripts
       .pipe concat 'vendor.js'
       .pipe gulp.dest 'build/js'
+
+  gulp.task 'vendor:stylesheets', ->
+    return gulp.src vendor_stylesheets
+      .pipe concat 'vendor.css'
+      .pipe gulp.dest 'build/css'

@@ -31,7 +31,8 @@ module.exports = (gulp) ->
       [
         'coffeelint'
         'coffee:dev'
-        'vendor'
+        'vendor:scripts'
+        'vendor:stylesheets'
         'index'
         'templates'
       ]
