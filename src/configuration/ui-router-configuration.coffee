@@ -8,7 +8,7 @@ uiRouterConfiguration = (
       views:
         main:
           controller: 'HomeController'
-          templateUrl: '/home/template/home.html'
+          templateUrl: '/home/template/home-template.html'
           resolve:
             albums: (Album) ->
               return Album.findAll ids: [
