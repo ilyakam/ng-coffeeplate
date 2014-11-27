@@ -16,7 +16,20 @@ html(
     title App
 
   body
-    div(ui-view="main")
+    md-content
+      ng-include(src="'/toolbar/template/toolbar-template.html'")
+
+    md-sidenav(
+      layout = "column"
+    )
+      //- Artists
+      //- Albums
+      //- Tracks
+
+    md-content(
+      layout = "column"
+    )
+      div(ui-view="main")
 
     script(src="/js/vendor.js")
     script(src="/js/templates.js")
