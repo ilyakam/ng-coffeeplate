@@ -2,10 +2,22 @@ md-sidenav(
   layout = "column"
   md-component-id = "left"
 )
-  //- TODO: Add toolbar with a back button
-
   md-content(flex)
-    p Hello, world
-  //- Artists
-  //- Albums
-  //- Tracks
+    md-toolbar
+      .md-toolbar-tools
+        md-button(
+          ng-click = "onClickCloseNavigation()"
+        ) Back
+
+    md-list
+      md-item
+        md-item-content
+          .md-tile-content Artists
+
+      md-item
+        md-item-content
+          .md-tile-content Albums
+
+      md-item
+        md-item-content
+          .md-tile-content Tracks
